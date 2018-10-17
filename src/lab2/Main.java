@@ -1,8 +1,5 @@
 package lab2;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class Main {
     private static boolean isDigitOrDot(char c) {
         return Character.isDigit(c) || (c == '.');
@@ -19,20 +16,10 @@ public class Main {
         return strBuf.substring(1);
     }
 
-    //    private static String parse1(String str){
-//        StringBuilder stringBuilder=new StringBuilder(str);
-//        Pattern pattern=Pattern.compile("((0+)\\d+\\.?\\d*)");
-//        Matcher  m = pattern.matcher(stringBuilder);
-//        while (m.find()){
-//            Matcher bufm=pattern.matcher(stringBuilder.substring(m.end(1)));
-//            stringBuilder.delete(m.start(2),m.end(2));
-//            m=bufm;
-//        }
-//        return new String(stringBuilder);
-//    }
-    static String parse2(String str){
+    private static String parse2(String str) {
         return (str).replaceAll("(^|[^0.])(0+)(\\d+\\.?\\d*)", "$1$3");
     }
+
     public static void main(String[] args) {
         for (int i = 0; i < args.length; i++) {
             System.out.println("N " + i + " = \"" + args[i] + '\"');
