@@ -30,10 +30,13 @@ public class Main {
 //        }
 //        return new String(stringBuilder);
 //    }
+    static String parse2(String str){
+        return (str).replaceAll("(^|[^0.])(0+)(\\d+\\.?\\d*)", "$1$3");
+    }
     public static void main(String[] args) {
         for (int i = 0; i < args.length; i++) {
             System.out.println("N " + i + " = \"" + args[i] + '\"');
-            System.out.println("Answer: \"" + parse(args[i]) + '\"');
+            System.out.println("Answer: \"" + parse2(args[i]) + '\"');
         }
     }
 }

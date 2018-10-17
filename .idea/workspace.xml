@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2112cd57-d2b4-4c55-a2e5-c12d6289eb7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Main.java" afterDir="false" />
     </list>
@@ -23,12 +22,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="882" />
+          <entry key="java" value="1163" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="882" />
+          <entry key="JAVA" value="1163" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -38,13 +47,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lab2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+            <state relative-caret-position="315">
+              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#148#149#0" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
-                <marker date="1539680293083" expanded="false" signature="637:1111" ph="..." />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+                <marker date="1539782750935" expanded="true" signature="637:1111" ph="..." />
               </folding>
             </state>
           </provider>
@@ -81,7 +92,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539681670387" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539782750902" />
+    <property name="last.edited.regexp" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -99,7 +111,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lab2.Main" />
       <module name="Lab2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="sad000.00123" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -139,7 +151,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
@@ -204,15 +216,31 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://D:/programs/Java/jdk/lib/src.zip!/java.base/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="992" column="19" selection-start-line="992" selection-start-column="19" selection-end-line="992" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/programs/Java/jdk/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="2124" column="56" lean-forward="true" selection-start-line="2124" selection-start-column="56" selection-end-line="2124" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+        <state relative-caret-position="315">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
-            <marker date="1539680293083" expanded="false" signature="637:1111" ph="..." />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <marker date="1539782750935" expanded="true" signature="637:1111" ph="..." />
           </folding>
         </state>
       </provider>
